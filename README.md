@@ -9,6 +9,7 @@ WTFPL. Just do what the fuck you want.
 
 ## Installation
 You'll need libusb-1.0
+
     mkdir build
     cd build
     cmake ..
@@ -17,7 +18,9 @@ You'll need libusb-1.0
 ## Documentation
 You'll need doxygen for this.
 Simply run
+
     doxygen doxygen.cfg
+
 Resulting documentation will be in html folder.
 
 ## Notes
