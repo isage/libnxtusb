@@ -1,0 +1,9 @@
+CMakeFiles/
+build/
+html/
+nbproject/
+CMakeCache.txt
+Makefile
+*.cmake
+*.so
+*.o
