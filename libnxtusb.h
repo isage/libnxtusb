@@ -92,11 +92,11 @@ typedef enum {
  */
 typedef enum {
   /** Idle */
-  NXT_MOTOR_REGULATION_IDLE = 0x01,
+  NXT_MOTOR_REGULATION_IDLE = 0x00,
   /** Speed */
-  NXT_MOTOR_REGULATION_SPEED,
+  NXT_MOTOR_REGULATION_SPEED = 0x01,
   /** Sync */
-  NXT_MOTOR_REGULATION_SYNC
+  NXT_MOTOR_REGULATION_SYNC = 0x02
 } libnxtusb_motor_regulation_t;
 
 /** \ingroup dc
